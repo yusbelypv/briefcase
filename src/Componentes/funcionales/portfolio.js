@@ -24,8 +24,9 @@ const useStyles = makeStyles((theme) => ({
   cardContainer: {
     maxWidth: 345,
     Height: 450,
-    margin: "3rem auto",
-    boxShadow: "8px 8px 8px #472a5b"
+    margin: "6rem auto",
+    boxShadow: "8px 8px 8px #472a5b",
+    
   },
   btn: {
     border: 'none',
@@ -57,7 +58,7 @@ const projects = [
     Node and Sequelize: which allows you to view the different 
     Pokémon using the external pokeapi api that includes:
     search pokemon
-    Filter, Sort them
+    Filter, Sort them and
     create new pokemon`,
     image: pi,
     link: "https://pi-pokemon-eight.vercel.app/",
@@ -119,12 +120,12 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-               <a href={project.link} target="_blank" >
+               <a href={project.link} target="_blank" style={{ textDecoration: 'none' }}>
                 <Button className={ `${classes.btn} ${classes.btn1}`} >
                   View
                 </Button>
                 </a>
-                <a href={project.demo} target="_blank" >
+                <a href={project.demo} target="_blank" style={{ textDecoration: 'none' }}>
                 <Button className={ `${classes.btn} ${classes.btn1}`}>
                   Video
                 </Button>

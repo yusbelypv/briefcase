@@ -11,6 +11,7 @@ import Styles from "../../Styles/Styles.module.css"
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
     background: "black",
+    
   },
   timeLine: {
     position: "relative",
@@ -98,7 +99,7 @@ const useStyles = makeStyles((theme) => ({
   },
   heading: {
     color: "#f5f5f5",
-    padding: "3rem 0",
+    padding: "6rem 0",
     textTransform: "uppercase",
   },
   subHeading: {
@@ -148,7 +149,7 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Bootcamp. Vero quas
+            Bootcamp. 
             Intensive training in which I learned the latest technologies 
             and programming languages. Team building real-world projects 
             with agile methodologies and tools (scrum), under collaborative learning.

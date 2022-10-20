@@ -28,6 +28,7 @@ const useStyles = makeStyles((theme) => ({
   appbar: {
     background: "#472a5b",
     margin: 0,
+    position:"fixed",
   },
   arrow: {
     color: "#71bcc3",
