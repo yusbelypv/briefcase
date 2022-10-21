@@ -205,7 +205,7 @@ const Resume = () => {
             className={classes.subtitle1}
           >
              JavaScript, HTML, CSS, Node.js,
-             React.js, Redux, SQL.
+             React.js, Redux, Express, SQL, Sequelize - Postgres.
           </Typography>
         </Box>
         <Typography
