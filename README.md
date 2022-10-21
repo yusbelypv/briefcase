@@ -26,4 +26,4 @@ Pueden conocer más acerca de mí en los siguientes links:
 
 ### Deployment
 
-Portafolio: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Portafolio: [https://briefcase-seven.vercel.app/](https://briefcase-seven.vercel.app/)
