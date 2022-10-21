@@ -83,8 +83,8 @@ const projects = [
     such as: projects made with videos and deploy of each one, linkedin, 
     github, curriculum. Also briefly what are my soft and technical skills.`,
     image: port,
-    link: "https://henrymovies.vercel.app/",
-    demo: "https://www.youtube.com/watch?v=keG8ClPjraA&t=23s",
+    link: "https://github.com/yusbelypv/briefcase",
+    demo: "https://www.youtube.com/watch?v=s31aRAZCtI0",
     
   },
   

@@ -124,6 +124,7 @@ const ContactP = () => {
             type: 'success',
             title: 'It was sent correctly',
         })
+        window.location.reload(true);
         
         },
         (error) => {
@@ -131,6 +132,7 @@ const ContactP = () => {
                 type: "error",
                 title: "Oops...",
                 text: "The email could not be sent",
+                timer: 9000,
               });
         }
       );
