@@ -67,11 +67,12 @@ const projects = [
    
   },
   {
-    name: "HMovies",
+    name: "Group Project: HMovies",
     description: `Ecommerce Development of Movies "Without Subscription" 
     that includes: movie search, filtering and sorting, movie reviews, favorites 
     list, payment gateway, user login, add to favorites, shopping cart. 
-    Administration control panel. `,
+    Administration control panel.
+    `, 
     image: grupal,
     link: "https://henrymovies.vercel.app/",
     demo: "https://www.youtube.com/watch?v=keG8ClPjraA&t=23s",
