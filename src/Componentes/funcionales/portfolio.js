@@ -10,6 +10,8 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import pi from "../../assets/pi.png";
+import app from "../../assets/app.png";
+import fron from "../../assets/fron.png";
 import grupal from "../../assets/grupal.png";
 import port from "../../assets/port.png";
 import Navbar from "../presentacionales/NavBar";
@@ -87,6 +89,34 @@ const projects = [
     link: "https://github.com/yusbelypv/briefcase",
     demo: "https://www.youtube.com/watch?v=s31aRAZCtI0",
     
+  },
+
+  {
+    name: "Frontend",
+    description: `
+    Personal project developed with JS, Html, CSS and IndexedDB 
+    to keep information locally. Allows you to view a list of 
+    customers with their respective information and with the 
+    option to edit it. It also allows you to add a new customer.`,
+    image: fron,
+    link: "https://yusbely-parra.vercel.app/",
+    demo: "https://www.youtube.com/watch?v=X-D62E3lHcQ",
+   
+   
+  },
+
+  {
+    name: "App Sheet",
+    description: `
+    Personal project using Google's AppSheet tool that allows you 
+    to make applications without code but with great potential. 
+    This app allows you to control and monitor projects, visualize
+     the process of activities and their development..`,
+    image: app,
+    link: "https://youtube.com/shorts/neWvlok-swY?feature=share",
+    demo: "https://youtube.com/shorts/neWvlok-swY?feature=share",
+   
+   
   },
   
   
