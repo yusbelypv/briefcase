@@ -56,12 +56,13 @@ const projects = [
   {
     name: "App Pokemon",
     description: `
-    Individual Project App Development using React, Redux, 
-    Node and Sequelize: which allows you to view the different 
-    Pokémon using the external pokeapi api that includes:
-    search pokemon
-    Filter, Sort them and
-    create new pokemon`,
+    
+    Desarrollo de aplicaciones de proyectos individuales utilizando React, Redux, 
+    Node and Sequelize: que permite visualizar los diferentes 
+    Pokémon usando la api pokeapi externa que incluye:
+    buscar pokemon
+    Filtrar, ordenar y
+    crear nuevos pokemon`,
     image: pi,
     link: "https://pi-pokemon-eight.vercel.app/",
     demo: "https://www.youtube.com/watch?v=KUre0HudsXs&t=4s",
@@ -70,21 +71,20 @@ const projects = [
   },
   {
     name: "Group Project: HMovies",
-    description: `Ecommerce Development of Movies "Without Subscription" 
-    that includes: movie search, filtering and sorting, movie reviews, favorites 
-    list, payment gateway, user login, add to favorites, shopping cart. 
-    Administration control panel.
-    `, 
+    description: `Desarrollo Ecommerce de Películas "Sin Suscripción" 
+    que incluye: búsqueda, filtrado y clasificación de películas, reseñas de películas, favoritos 
+    lista, pasarela de pago, inicio de sesión de usuario, añadir a favoritos, carrito de compra. 
+    Panel de control de administración.`, 
     image: grupal,
     link: "https://henrymovies.vercel.app/",
     demo: "https://www.youtube.com/watch?v=keG8ClPjraA&t=23s",
   },
   {
-    name: "Portfolio",
-    description: `Personal project shows a little more about 
-    me where you can access professional and contact information 
-    such as: projects made with videos and deploy of each one, linkedin, 
-    github, curriculum. Also briefly what are my soft and technical skills.`,
+    name: "Portafolio",
+    description: `El proyecto personal muestra un poco más sobre 
+    conmigo donde podrás acceder a información profesional y de contacto 
+    tales como: proyectos realizados con videos y despliegue de cada uno, linkedin, 
+    github, plan de estudios. También brevemente cuáles son mis habilidades técnicas y sociales.`,
     image: port,
     link: "https://github.com/yusbelypv/briefcase",
     demo: "https://www.youtube.com/watch?v=s31aRAZCtI0",
@@ -94,10 +94,10 @@ const projects = [
   {
     name: "Frontend",
     description: `
-    Personal project developed with JS, Html, CSS and IndexedDB 
-    to keep information locally. Allows you to view a list of 
-    customers with their respective information and with the 
-    option to edit it. It also allows you to add a new customer.`,
+    Proyecto personal desarrollado con JS, Html, CSS e IndexedDB 
+    para mantener la información localmente. Le permite ver una lista de 
+    clientes con su respectiva información y con la 
+    opción para editarlo. También le permite agregar un nuevo cliente.`,
     image: fron,
     link: "https://yusbely-parra.vercel.app/",
     demo: "https://www.youtube.com/watch?v=X-D62E3lHcQ",
@@ -108,10 +108,10 @@ const projects = [
   {
     name: "App Sheet",
     description: `
-    Personal project using Google's AppSheet tool that allows you 
-    to make applications without code but with great potential. 
-    This app allows you to control and monitor projects, visualize
-     the process of activities and their development..`,
+    Proyecto personal utilizando la herramienta AppSheet de Google que te permite 
+    para hacer aplicaciones sin código pero con un gran potencial. 
+    Esta aplicación te permite controlar y monitorear proyectos, visualizar
+     el proceso de las actividades y su desarrollo.`,
     image: app,
     link: "https://youtube.com/shorts/neWvlok-swY?feature=share",
     demo: "https://youtube.com/shorts/neWvlok-swY?feature=share",

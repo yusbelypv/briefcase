@@ -123,15 +123,81 @@ const Resume = () => {
         <Navbar></Navbar>
       <div className={Styles.animacion}>
       <Typography variant="h4" align="center" className={classes.heading}>
-      About Me
+      Acerca de mí
       </Typography>
+
+      <Typography
+          variant="h2"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          <Link to="/Pdf" style={{ textDecoration: 'none', color: 'white' }}> BDR </Link>
+        </Typography>
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            Prospección - Setter Digital
+          </Typography>
+          <Typography variant="body1" align="center" className={classes.body1}>
+            -- ELEVATE, Group --
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
+          >
+            Actualmente me encuentro desarrollando una certificación en técnicas de prospección 
+            digital para la generación y calificación de prospectos en entornos digitales.
+          </Typography>
+        </Box>
+
+
+
+
+
+
+
+      <Typography
+          variant="h2"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          <Link to="/Pdf" style={{ textDecoration: 'none', color: 'white' }}> Máster </Link>
+        </Typography>
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            Máster de Formación Permanente en Dirección de Sistemas y TI 
+          </Typography>
+          <Typography variant="body1" align="center" className={classes.body1}>
+            -- OBS, España --
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
+          >
+            Trabajo Final (Proyecto Grupal): "Modernización de Centro de Datos para una empresa
+             líder en el mercado de mensajería y transporte de carga en Colombia"
+          </Typography>
+        </Box>
+
+
+
+
+
+
       <Box component="div" className={classes.timeLine}>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
          <a href="https://certificates.soyhenry.com/cert?id=a4c17b87-49c3-4350-80ef-60f8dd6fd9d2" target="_blank" style={{ textDecoration: 'none', color: 'white' }}>
-          Certificate</a>
+          Certificación</a>
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -150,16 +216,17 @@ const Resume = () => {
             className={classes.subtitle1}
           >
             Bootcamp. 
-            Intensive training in which I learned the latest technologies 
-            and programming languages. Team building real-world projects 
-            with agile methodologies and tools (scrum), under collaborative learning.
+            Formación intensiva en la que aprendí las últimas tecnologías. 
+            y lenguajes de programación. 
+            Team building de proyectos del mundo real 
+            con metodologías y herramientas ágiles (scrum), bajo el aprendizaje colaborativo.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          <Link to="/Pdf" style={{ textDecoration: 'none', color: 'white' }}> Resume</Link>
+          <Link to="/Pdf" style={{ textDecoration: 'none', color: 'white' }}> Resumen </Link>
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -167,7 +234,7 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Systems Engineer
+            Ingeniero de Sistemas
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
             -- UPSM, Venezuela --
@@ -177,8 +244,8 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Throughout my career I have worked in different fields 
-            as a systems analyst and also in the world of digital marketing.
+            A lo largo de mi carrera he trabajado en diferentes campos como analista de sistemas 
+            y también en el mundo del marketing digital.
           </Typography>
         </Box>
         <Typography
@@ -194,7 +261,7 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Technical Skills
+            Habilidades Técnicas
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
             
@@ -205,7 +272,7 @@ const Resume = () => {
             className={classes.subtitle1}
           >
              JavaScript, HTML, CSS, Node.js,
-             React.js, Redux, Express, SQL, Sequelize - Postgres.
+             React.js, Redux, Express, SQL, Sequelize - Postgres, SQL.
           </Typography>
         </Box>
         <Typography
@@ -221,7 +288,7 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Soft Skills
+            Habilidades Blandas
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
             
@@ -231,8 +298,8 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            Dedication, Adaptability, Initiative, Creativity,
-            Problem Solving, Analytical, Agile Methodologies
+            Dedicación, Adaptabilidad, Iniciativa, Creatividad, Resolución de Problemas, Analítica, Metodologías Ágiles
+          
 
           </Typography>
         </Box>

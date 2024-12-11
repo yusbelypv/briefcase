@@ -74,8 +74,9 @@ const Header = () => {
       <Typography className={classes.subtitle} variant="h5">
         <Typed
           strings={[
-            "Full Stack Web Developer",
-            "Systems engineer",
+            "Desarrollo Web",
+            "Ingeniero de Sistemas",
+            "BDR",
           ]}
           typeSpeed={40}
           backSpeed={50}
@@ -86,7 +87,13 @@ const Header = () => {
       <Link to="/Pdf" style={{ textDecoration: 'none' }}> 
          <Button  className={ `${classes.btn} ${classes.btn1}` }>
           
-          View Resume</Button></Link>
+          Ver Resumen</Button></Link>
+
+          <br></br>
+      <Link to="/portfolio" style={{ textDecoration: 'none' }}> 
+         <Button  className={ `${classes.btn} ${classes.btn1}` }>
+          
+          Portafolio</Button></Link>
        
         
       

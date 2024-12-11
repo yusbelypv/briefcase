@@ -146,7 +146,7 @@ const ContactP = () => {
         <Box className={classes.cBox} container justify="center">
       
         <Typography variant="h5" className={classes.heading}>
-            Contact me...
+        ¿Tienes Preguntas? ¡Hablemos!
           </Typography>
       
       <div  className={Styles.animacionContact}>
@@ -155,11 +155,11 @@ const ContactP = () => {
         
       <form ref={form} onSubmit={sendEmail} className={Styles.form}>
      
-         <label className={Styles.label}>Name:</label>
+         <label className={Styles.label}>Nombre:</label>
          <input type="text" name="name" className={Styles.input} required/>
          <label className={Styles.label}>Email:</label>
          <input type="email" name="email" className={Styles.input} required/>
-         <label className={Styles.label}>Message:</label>
+         <label className={Styles.label}>Mensaje:</label>
          <textarea name="message" className={Styles.textarea} required/>
         <input type="submit" value="Send" className={ `${classes.btn} ${classes.btn1}`}/>
       </form>
