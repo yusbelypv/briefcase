@@ -76,7 +76,8 @@ const Header = () => {
           strings={[
             "Desarrollo Web",
             "Ingeniero de Sistemas",
-            "BDR",
+            "Máster en Dirección de Sistemas",
+            "Diseño UX en formacion",
           ]}
           typeSpeed={40}
           backSpeed={50}
